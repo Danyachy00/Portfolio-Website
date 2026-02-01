@@ -1,0 +1,435 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "IBM Plex Mono", monospace;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #000000;
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+.hero {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 85vh;
+}
+
+.greetings {
+    color: #00ff00;
+    text-shadow: 0 0 15px #00ff00;
+    font-size: 20px;
+    max-width: 50%;
+    min-height: 250px;
+    padding-left: 50px;
+}
+
+.dance {
+    color: #00ff00;
+    text-shadow: 0 0 25px #00ff00;
+    white-space: pre;
+    font-size: 10px;
+    line-height: 1;
+}
+
+
+header {
+    display: flex;
+    justify-content: end;
+    padding-top: 25px;
+    padding-right: 25px;
+}
+
+.terminal-box {
+    color: #00ff00;
+    border: 4px dashed #6CFF4D;
+    border-left: none;
+    border-bottom: none;
+    display: inline-block;
+
+}
+
+.terminal-box ul {
+    list-style: none;
+    padding: 10px 10px 0px 0px;
+}
+
+.terminal-box ul li {
+    text-shadow: 0 0 15px #00ff00;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.terminal-box ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#About {
+    color: #00ff00;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#About h1,
+#About h2 {
+    text-shadow: 0 0 15px #00ff00;
+    text-align: center;
+    line-height: 35px;
+}
+
+#About h2 {
+    margin-bottom: 110px;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 40px;
+    color: #00ff00;
+    max-width: 1380px;
+    margin: 0 auto;
+}
+
+.Plate {
+    border: 2px solid #00ff00;
+    padding: 22px;
+    transition:
+        box-shadow 0.3s ease,
+        transform 0.3s ease;
+    padding-bottom: 28px;
+    margin-bottom: 130px;
+}
+
+.Plate:hover {
+    box-shadow: 0 0px 20px #00ff00;
+    text-shadow: 0 0 15px #00ff00;
+    transform: translateY(-4px);
+}
+
+.Plate h3 {
+    margin-bottom: 17px;
+    font-weight: 500;
+    font-size: 34px;
+}
+
+.Plate p {
+    margin-bottom: 27px;
+}
+
+.Plate span {
+    padding-right: 6px;
+}
+
+.skills i {
+    font-size: 25px;
+    border: 1px solid #00ff00;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.Plate:hover i {
+    box-shadow: 0 0 9px #00ff00;
+}
+
+
+span {
+    border: 1px solid #00ff00;
+    padding: 3px;
+}
+
+.Plate:hover span {
+    box-shadow: 0 0 9px #00ff00;
+}
+
+/* #region  Projects */
+
+.projects {
+    color: #00ff00;
+    width: 1350px;
+    margin: 0 auto;
+}
+
+.intrd h1,
+.intrd p {
+    text-shadow: 0 0 15px #00ff00;
+    font-size: 27px;
+    text-align: center;
+}
+
+.intrd h1 {
+    margin-bottom: 8px;
+}
+
+.intrd {
+    margin-bottom: 70px;
+}
+
+.prorow {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 40px;
+    color: #00ff00;
+    max-width: 1380px;
+    margin: 0 auto;
+}
+
+.row {
+    border: 1px solid #00ff00;
+    padding: 20px 20px 10px 20px;
+    width: 380px;
+    height: 265px;
+    margin-bottom: 150px;
+    transition: text-shadow 0.3s,
+        box-shadow 0.3s,
+        transform 0.3s
+}
+
+.row:hover {
+    text-shadow: 0 0 15px #00ff00;
+    box-shadow: 0 0 15px #00ff00;
+    transform: translateY(-4px);
+}
+
+.row:hover span {
+    box-shadow: 0 0 15px #00ff00;
+}
+
+.row i {
+    font-size: 25px;
+    border: 2px solid #00ff00;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.row h3 {
+    color: #00ff00;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.row p {
+    margin-bottom: 13px;
+}
+
+.redic {
+    padding: 10px 0px 0px;
+    display: flex;
+    justify-content: end;
+}
+
+.redic i {
+    border: 0;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.redic a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.contact {
+    width: 800px;
+    margin: 0 auto;
+    border: 3px solid #00ff00;
+    padding: 30px;
+    box-shadow: 0 0 15px #00ff00;
+    text-shadow: 0 0 15px #00ff00;
+}
+
+.lets h2 {
+    color: #00ff00;
+    text-align: center;
+    text-shadow: 0 0 15px #00ff00;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+/* #endregion */
+
+/* #region names */
+.persinf {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.persinf p {
+    color: #00ff00;
+    font-size: 25px;
+    font-weight: 500;
+
+}
+
+.persinf input {
+    width: 100%;
+    height: 50px;
+    border: 2px solid #00ff00;
+    background: #000;
+    margin-bottom: 10px;
+    color: #00ff00;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.persinf input::placeholder {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+    color: #00ff00;
+    opacity: 0.5;
+}
+
+/* #endregion */
+
+
+/* #region mail */
+.email p {
+    color: #00ff00;
+    font-size: 25px;
+    font-weight: 500;
+    text-shadow: 0 0 15px #00ff00;
+    margin-bottom: 10px;
+}
+
+.email input {
+    width: 100%;
+    border: 2px solid #00ff00;
+    background: #000;
+    height: 50px;
+    margin-bottom: 20px;
+    color: #00ff00;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.email input::placeholder {
+    padding: 10px;
+    opacity: 0.5;
+    color: #00ff00;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* #endregion */
+
+
+/* #region message */
+.mess {
+    margin-bottom: 20px;
+}
+
+.mess p {
+    color: #00ff00;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.mess textarea {
+    resize: none;
+    width: 100%;
+    height: 120px;
+    background: #000;
+    border: 2px solid #00ff00;
+    color: #00ff00;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+/* #endregion */
+
+/* #region button */
+
+.send {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.send button {
+    cursor: pointer;
+    color: #000;
+    background-color: #2cd02c;
+    border: 0;
+    width: 100%;
+    font-size: 20px;
+    box-shadow: 0 0 15px #6CFF4D;
+    text-shadow: 0 0 15px #00ff00;
+}
+
+/* #endregion */
+
+/* #region footer */
+footer {
+    margin-top: 200px;
+    border-top: 1px solid #00ff00;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+}
+
+.dan {
+    color: #00ff00;
+    font-size: 20px;
+    font-weight: 500;
+    transition: text-shadow 0.3s
+}
+
+.dan:hover {
+    text-shadow: 0 0 15px #00ff00;
+
+}
+
+.foot-nav {
+    gap: 15px;
+    display: flex;
+}
+
+.foot-nav a {
+    color: #00ff00;
+    font-weight: 500;
+    transition: text-shadow 0.3s;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.foot-nav a:hover {
+    text-shadow: 0 0 10px #00ff00;
+}
+
+
+.git {
+    font-size: 40px;
+    transition: text-shadow 0.3s, transform 0.3s;
+}
+
+.git a {
+    text-decoration: none;
+    color: #00ff00;
+}
+
+.git:hover {
+    text-shadow: 0 0 15px #00ff00;
+    transform: translateY(-4px);
+}
+
+/* #endregion */
